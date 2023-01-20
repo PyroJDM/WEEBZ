@@ -1,0 +1,550 @@
+@font-face {
+  font-family: "AirQuantum";
+  src: url(fonts/AirntQuantum-JRMra.otf);
+}
+
+@font-face {
+  font-family: "AirQuantum0";
+  src: url(fonts/Airnt-qZey2.otf);
+}
+
+@font-face {
+  font-family: "Draco";
+  src: url(fonts/Draco-OV5yp.otf);
+}
+
+@font-face {
+  font-family: "futuracondbold";
+  src: url(fonts/Futura\ Condensed\ Bold.otf);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  color: white;
+  margin: 0px;
+  padding: 0px;
+  background: linear-gradient(
+    120deg,
+    rgb(11, 192, 137) 0%,
+    rgb(66, 3, 101) 100%
+  );
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 800;
+}
+
+#subheading {
+  font-family: "Airquantum0";
+  color: rgba(240, 240, 240, 100%);
+  letter-spacing: 7px;
+}
+
+.nav-item {
+  color: white;
+  list-style-type: none;
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+}
+.navbar-toggler {
+  background: rgb(68, 67, 67);
+}
+
+.navbar {
+  background: rgba(27, 27, 27, 0.5);
+}
+nav {
+  font-family: "Draco";
+  color: white;
+}
+
+nav ul li a:hover span:nth-child(1) {
+  margin-right: 5px;
+}
+
+nav ul li a:hover span {
+  color: gold;
+  text-shadow: 0 0 10px hsl(0, 0%, 100%), 0 0 20px hsl(0, 0%, 100%),
+    0 0 40px hsl(0, 0%, 100%);
+}
+
+nav ul li a span {
+  transition: 0.5s linear;
+}
+
+#Homeimage {
+  width: 60%;
+  margin-bottom: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+#Homeimage:hover {
+  transform: scale(1.03);
+}
+
+#Mainheading {
+  font-family: "AirQuantum";
+  color: white;
+  font-weight: bold;
+  letter-spacing: 7px;
+  cursor: pointer;
+}
+
+h1 {
+  font-family: "AirQuantum";
+  color: white;
+  font-weight: bold;
+  letter-spacing: 7px;
+  cursor: pointer;
+}
+
+h1:hover span:nth-child(1) {
+  margin-right: 5px;
+}
+
+h1:hover span {
+  color: hsl(0, 0%, 100%);
+  text-shadow: 0 0 10px hsl(0, 0%, 100%), 0 0 20px hsl(0, 0%, 100%),
+    0 0 40px hsl(0, 0%, 100%);
+}
+
+h1 span {
+  transition: 0.5s linear;
+}
+
+h2 {
+  font-family: "futuracondbold";
+  color: whitesmoke;
+}
+
+h2:hover span:nth-child(1) {
+  margin-right: 5px;
+}
+
+h2 span {
+  transition: 0.5s linear;
+}
+
+h2:hover span {
+  color: rgb(159, 5, 173);
+  text-shadow: 0 0 10px hsl(0, 0%, 100%), 0 0 20px hsl(0, 0%, 100%),
+    0 0 40px hsl(0, 0%, 100%);
+}
+
+.description {
+  font-family: "Courier New";
+}
+
+.btn {
+  width: 200px;
+  height: 70px;
+  border-radius: 100px;
+  position: relative;
+  left: calc(50% -75px);
+  top: calc(50% -25px);
+  font-family: "AirQuantum0";
+}
+
+#buynowbtnxs {
+  color: whitesmoke;
+  background-color: rgb(5, 118, 5);
+  margin-bottom: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+#buynowbtnxs:hover {
+  background-color: rgb(6, 204, 5);
+  color: hsl(0, 0%, 100%);
+  text-shadow: 0 0 10px hsl(0, 0%, 100%), 0 0 20px hsl(0, 0%, 100%),
+    0 0 40px hsl(0, 0%, 100%);
+  transform: scale(1.2);
+  z-index: 2;
+}
+
+.buynowbtn {
+  color: whitesmoke;
+  background-color: rgb(5, 118, 5);
+  margin-right: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.buynowbtn:hover {
+  background-color: rgb(6, 204, 5);
+  color: hsl(0, 0%, 100%);
+  text-shadow: 0 0 10px hsl(0, 0%, 100%), 0 0 20px hsl(0, 0%, 100%),
+    0 0 40px hsl(0, 0%, 100%);
+  transform: scale(1.2);
+  z-index: 2;
+}
+
+.walletbtn {
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.walletbtn:hover {
+  background-color: hsl(0, 0%, 100%);
+  color: black;
+  text-shadow: 0 0 10px hsl(0, 0%, 100%), 0 0 20px hsl(0, 0%, 100%),
+    0 0 40px hsl(0, 0%, 100%);
+  transform: scale(1.2);
+  z-index: 2;
+}
+
+#halfdis {
+  font-family: "AirQuantum0";
+  color: rgb(255, 255, 255);
+}
+
+.logo {
+  color: gold;
+}
+
+#about {
+  color: white;
+  font-family: AirQuantum;
+}
+
+.aboutus {
+  font-family: "Airquantum0";
+}
+
+.aboutusnobox {
+  color: black;
+  font-family: "Airquantum0";
+}
+.worked-with {
+  height: 50%;
+  width: 100%;
+  display: block;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.worked-with:hover {
+  transform: scale(1.2);
+  z-index: 2;
+}
+
+.aboutus:hover span:nth-child(1) {
+  margin-right: 5px;
+}
+
+.aboutus:hover span {
+  color: green;
+  text-shadow: 0 0 10px hsl(0, 0%, 100%), 0 0 20px hsl(0, 0%, 100%),
+    0 0 40px hsl(0, 0%, 100%);
+}
+
+.aboutus span {
+  transition: 0.5s linear;
+}
+
+.sponsors {
+  font-family: "Airquantum0";
+}
+#collab {
+  flex: auto;
+  width: auto;
+  height: auto;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+#collab:hover {
+  transform: scale(1.03);
+}
+#partners {
+  background: rgba(241, 239, 239, 0.2);
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+#partners:hover {
+  transform: scale(1.03);
+}
+
+#drops {
+  height: auto;
+  width: auto;
+  color: white;
+  margin: 0px;
+  padding: 0px;
+  font-family: AirQuantum;
+}
+
+.card {
+  background: rgba(37, 37, 37, 0.7);
+  width: 18rem;
+}
+
+.card-body {
+  background: rgba(37, 37, 37, 0.7);
+}
+
+.card {
+  cursor: pointer;
+  transition: all 0.3s ease-in;
+}
+
+.card:hover {
+  transform: scale(1.2);
+  z-index: 2;
+}
+.card-title {
+  font-family: "Airquantum0";
+}
+.card-text {
+  color: gray;
+  font-family: "futuracondbold";
+}
+
+#See-more {
+  width: 200px;
+  height: 70px;
+  border-radius: 180px;
+  position: relative;
+  left: calc(50% -75px);
+  top: calc(50% -25px);
+  font-family: "AirQuantum0";
+}
+
+#See-more {
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+#See-more:hover {
+  background-color: hsl(0, 0%, 100%);
+
+  color: black;
+  text-shadow: 0 0 10px hsl(0, 0%, 100%), 0 0 20px hsl(0, 0%, 100%),
+    0 0 40px hsl(0, 0%, 100%);
+  transform: scale(1.2);
+  z-index: 2;
+}
+
+.btn2 {
+  width: 400px;
+  height: 70px;
+  border-radius: 180px;
+  position: relative;
+  left: calc(50% -75px);
+  top: calc(50% -25px);
+  font-family: "Draco";
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.btn2:hover {
+  background-color: gold;
+  color: black;
+  text-shadow: 0 0 10px hsl(0, 0%, 100%), 0 0 20px hsl(0, 0%, 100%),
+    0 0 40px hsl(0, 0%, 100%);
+  transform: scale(1.2);
+  z-index: 2;
+}
+
+.btnxs {
+  width: 200px;
+  height: 70px;
+  border-radius: 180px;
+  position: relative;
+  left: calc(50% -75px);
+  top: calc(50% -25px);
+  font-family: "draco";
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.btnxs:hover {
+  background-color: gold;
+  color: black;
+  text-shadow: 0 0 10px hsl(0, 0%, 100%), 0 0 20px hsl(0, 0%, 100%),
+    0 0 40px hsl(0, 0%, 100%);
+  transform: scale(1.2);
+  z-index: 2;
+}
+#society {
+  height: auto;
+  width: auto;
+  color: white;
+  margin: 0px;
+  padding: 0px;
+  font-family: AirQuantum;
+}
+
+.societyimg {
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.societyimg:hover {
+  transform: scale(1.2);
+  z-index: 2;
+}
+
+.btn3 {
+  width: 400px;
+  height: 70px;
+  border-radius: 180px;
+  position: relative;
+  left: calc(50% -75px);
+  top: calc(50% -25px);
+  font-family: "Draco";
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.btn3:hover {
+  background-color: grey;
+  color: rgb(255, 234, 234);
+  transform: scale(1.2);
+  z-index: 2;
+}
+
+.btn31 {
+  width: 200px;
+  height: 70px;
+  border-radius: 120px;
+  position: relative;
+  left: calc(50% -75px);
+  top: calc(50% -25px);
+  font-family: "Airquantum0";
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.btn31:hover {
+  background-color: grey;
+  color: rgb(255, 234, 234);
+  transform: scale(1.2);
+  z-index: 2;
+}
+
+.btn4 {
+  width: 150px;
+  height: 70px;
+  border-radius: 150px;
+  position: relative;
+  left: calc(50% -75px);
+  top: calc(50% -25px);
+  font-family: "AirQuantum0";
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.btn4:hover {
+  background-color: green;
+  color: rgb(255, 234, 234);
+  transform: scale(1.2);
+  z-index: 2;
+}
+
+#joindc {
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+#joindc:hover {
+  color: gold;
+  text-shadow: 0 0 10px hsl(0, 0%, 100%), 0 0 20px hsl(0, 0%, 100%),
+    0 0 40px hsl(0, 0%, 100%);
+  transform: scale(1.2);
+  z-index: 2;
+}
+
+#joindc:hover span:nth-child(1) {
+  margin-right: 5px;
+}
+
+#joindc span {
+  transition: 0.5s linear;
+}
+
+#wallet {
+  height: auto;
+  width: auto;
+  color: white;
+  margin: 0px;
+  padding: 0px;
+  font-family: "Arial";
+}
+
+#footer {
+  font-family: "Cardo";
+  background: linear-gradient(180deg, rgb(32, 36, 39) 0%, rgb(19, 19, 19) 100%);
+  color: gray;
+}
+.footer-item {
+  font-family: "Roboto";
+}
+#logo2 {
+  color: white;
+}
+.footer-item {
+  list-style-type: none;
+  display: block;
+  color: white;
+  letter-spacing: 1px;
+}
+
+.footer a:link {
+  text-decoration: none;
+}
+
+.footer a:visited {
+  text-decoration: none;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+
+.footer a:active {
+  text-decoration: underline;
+}
+
+/* unvisited link */
+.footer a:link {
+  color: white;
+}
+
+/* visited link */
+.footer a:visited {
+  color: rgb(255, 255, 255);
+}
+
+/* mouse over link */
+.footer a:hover {
+  color: rgb(23, 23, 21);
+  background: white;
+}
+
+/* selected link */
+.footer a:active {
+  color: white;
+}
+
+.btnfoot {
+  width: 310px;
+  height: 30px;
+  border-radius: 200px;
+  padding-bottom: 30px;
+  background: rgba(45, 45, 45, 0.7);
+  color: white;
+  margin-bottom: 10px;
+}
