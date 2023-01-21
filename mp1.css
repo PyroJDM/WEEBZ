@@ -42,12 +42,25 @@ h6 {
   font-weight: 800;
 }
 
-#subheading {
+.subheading {
   font-family: "Airquantum0";
   color: rgba(240, 240, 240, 100%);
   letter-spacing: 7px;
 }
 
+.subheading:hover span:nth-child(1) {
+  margin-right: 5px;
+}
+
+.subheading span {
+  transition: 0.5s linear;
+}
+
+.subheading:hover span {
+  color: rgb(159, 5, 173);
+  text-shadow: 0 0 10px hsl(0, 0%, 100%), 0 0 20px hsl(0, 0%, 100%),
+    0 0 40px hsl(0, 0%, 100%);
+}
 .nav-item {
   color: white;
   list-style-type: none;
@@ -86,10 +99,21 @@ nav ul li a span {
 }
 
 #Homeimage {
+  opacity: 0%;
   cursor: pointer;
   transition: all 0.3s ease-in-out;
+  z-index: 2;
 }
 
+#home {
+  background-image: url(imgs/Df6hcZH.gif);
+  opacity: 90%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  margin-bottom: 100px;
+}
 #Homeimage:hover {
   transform: scale(1.03);
 }
@@ -216,11 +240,11 @@ h2:hover span {
 
 #about {
   color: white;
-  font-family: AirQuantum;
+  font-family: "AirQuantum0";
 }
 
 .aboutus {
-  font-family: "Airquantum0";
+  font-family: "AirQuantum0";
 }
 
 .aboutusnobox {
