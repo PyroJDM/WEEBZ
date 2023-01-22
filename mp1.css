@@ -458,13 +458,14 @@ a:active {
   position: relative;
   left: calc(50% -75px);
   top: calc(50% -25px);
-  font-family: "Draco";
+  font-family: "AirQuantum0";
+  letter-spacing: 1px;
   cursor: pointer;
   transition: all 0.3s ease-in-out;
 }
 
 .btn3:hover {
-  background-color: grey;
+  background-color: rgb(11, 192, 137);
   color: rgb(255, 234, 234);
   transform: scale(1.2);
   z-index: 2;
@@ -478,12 +479,13 @@ a:active {
   left: calc(50% -75px);
   top: calc(50% -25px);
   font-family: "Airquantum0";
+  letter-spacing: 1px;
   cursor: pointer;
   transition: all 0.3s ease-in-out;
 }
 
 .btn31:hover {
-  background-color: grey;
+  background-color: rgb(11, 192, 137);
   color: rgb(255, 234, 234);
   transform: scale(1.2);
   z-index: 2;
