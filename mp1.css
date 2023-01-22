@@ -299,6 +299,7 @@ a:active {
 
 .sponsors {
   font-family: "Airquantum0";
+  letter-spacing: 4px;
 }
 #collab {
   flex: auto;
