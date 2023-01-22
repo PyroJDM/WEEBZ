@@ -396,7 +396,8 @@ a:active {
   position: relative;
   left: calc(50% -75px);
   top: calc(50% -25px);
-  font-family: "Draco";
+  font-family: "AirQuantum0";
+  letter-spacing: 1px;
   cursor: pointer;
   transition: all 0.3s ease-in-out;
 }
@@ -417,7 +418,8 @@ a:active {
   position: relative;
   left: calc(50% -75px);
   top: calc(50% -25px);
-  font-family: "draco";
+  font-family: "AirQuantum0";
+  letter-spacing: 1px;
   cursor: pointer;
   transition: all 0.3s ease-in-out;
 }
